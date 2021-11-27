@@ -70,10 +70,10 @@
     },
     {
       "id": "frieza",
-      "name": "Frieza",
+      "name": "Freezer",
       "race": "Unknown",
       "gender": "Hombre",
-      "bio": "Frieza, romanized as Freeza in Japanese merchandise, Funimation's English subtitles and Viz Media's release of the manga, is a fictional character in the Dragon Ball manga series created by Akira Toriyama. Frieza makes his debut in Chapter #247: Dark Clouds Swirl Over Planet Namek, first published in Weekly Shōnen Jump magazine on October 6, 1989, as a galactic tyrant feared as the most powerful being in the universe. Despite not appearing until the manga's second half, Frieza is considered to be the most iconic antagonist from the Dragon Ball franchise due to effectively serving as the catalyst of many of the events depicted in the story, such as Goku's arrival on Earth, the Saiyans landing on Earth, and subsequently the main characters going to planet Namek. In his appearances in the manga itself, he is also directly responsible for the murder of Goku's father Bardock, the genocide of the Sayayin race, the death of Vegeta, and the second death of Goku's best friend Krillin, arguably making him Goku's most personal and significant enemy, and the final confrontation between Goku and Frieza has been hailed as one of the most memorable manga and anime battles ever.",
+      "bio": "Freezer, romanized as Freeza in Japanese merchandise, Funimation's English subtitles and Viz Media's release of the manga, is a fictional character in the Dragon Ball manga series created by Akira Toriyama. Freezer makes his debut in Chapter #247: Dark Clouds Swirl Over Planet Namek, first published in Weekly Shōnen Jump magazine on October 6, 1989, as a galactic tyrant feared as the most powerful being in the universe. Despite not appearing until the manga's second half, Freezer is considered to be the most iconic antagonist from the Dragon Ball franchise due to effectively serving as the catalyst of many of the events depicted in the story, such as Goku's arrival on Earth, the Saiyans landing on Earth, and subsequently the main characters going to planet Namek. In his appearances in the manga itself, he is also directly responsible for the murder of Goku's father Bardock, the genocide of the Sayayin race, the death of Vegeta, and the second death of Goku's best friend Krillin, arguably making him Goku's most personal and significant enemy, and the final confrontation between Goku and Freezer has been hailed as one of the most memorable manga and anime battles ever.",
       "health": "475,000",
       "attack": "47,000",
       "defense": "47,000",
@@ -88,7 +88,7 @@
     {
       "id": "cell",
       "name": "Cell",
-      "race": "Android",
+      "race": "Androide",
       "gender": "Hombre",
       "bio": "Cell is the ultimate creation of Dr. Gero, who came from a future timeline, designed to possess all the abilities of the greatest fighters to have ever inhabited or visited Earth; the result was a perfect warrior, possessing numerous favorable genetic traits and special abilities. He was one of the few Red Ribbon Androids not directly completed by Dr. Gero; he was completed by Dr. Gero's Supercomputer. He is the main antagonist of the Imperfect Cell, Perfect Cell, and Cell Games Sagas.",
       "health": "200,000",
@@ -122,9 +122,9 @@
     {
       "id": "beerus",
       "name": "Beerus",
-      "race": "God",
+      "race": "Dios",
       "gender": "Hombre",
-      "bio": "Beerus, the God of Destruction is a character in the Dragon Ball franchise created by Akira Toriyama. Beerus made his first appearance in the 2013 feature film Dragon Ball Z: Battle of Gods as the main antagonist and returned as a supporting character in Dragon Ball Z: Resurrection 'F', as well as one of the main characters in Dragon Ball Super. He is a purple sphynx cat-like god seen wearing traditional Egyptian clothing and ornaments, whose occupation is to maintain balance by destroying planets, in contrast to the Kaiō-shin who create and preserve them. It had been stated that Beerus is a star buster by Whis. Often seen destroying planets at a whim, Beerus' two sole desires are, being quite a gourmet, enjoying the Universe's finest cooking and fighting opponents whom he considers to be worthy. The latter ultimately leads him to look for the Super Sayayin God who turns out to be one of the Saiyans now living on Earth. Eventually, Son Goku, with the help of other Saiyans, transforms into the Super Sayayin God and fights Beerus, just to be defeated by the God of Destruction. Having enjoyed the match, Beerus spares both Goku and the Earth, saying that Goku was the second strongest opponent he ever faced; first being his caretaker and martial arts teacher, Whis.",
+      "bio": "Beerus, the Dios of Destruction is a character in the Dragon Ball franchise created by Akira Toriyama. Beerus made his first appearance in the 2013 feature film Dragon Ball Z: Battle of Gods as the main antagonist and returned as a supporting character in Dragon Ball Z: Resurrection 'F', as well as one of the main characters in Dragon Ball Super. He is a purple sphynx cat-like god seen wearing traditional Egyptian clothing and ornaments, whose occupation is to maintain balance by destroying planets, in contrast to the Kaiō-shin who create and preserve them. It had been stated that Beerus is a star buster by Whis. Often seen destroying planets at a whim, Beerus' two sole desires are, being quite a gourmet, enjoying the Universe's finest cooking and fighting opponents whom he considers to be worthy. The latter ultimately leads him to look for the Super Sayayin Dios who turns out to be one of the Saiyans now living on Earth. Eventually, Son Goku, with the help of other Saiyans, transforms into the Super Sayayin Dios and fights Beerus, just to be defeated by the Dios of Destruction. Having enjoyed the match, Beerus spares both Goku and the Earth, saying that Goku was the second strongest opponent he ever faced; first being his caretaker and martial arts teacher, Whis.",
       "health": "600,000",
       "attack": "60,000",
       "defense": "60,000",
@@ -139,9 +139,9 @@
     {
       "id": "piccolo",
       "name": "Piccolo",
-      "race": "Namekian",
+      "race": "Namekiano",
       "gender": "Hombre",
-      "bio": "Piccolo Jr., usually just called Piccolo also known as Ma Junior, is a Namekian and also the final child and reincarnation of the Demon King Piccolo, later becoming the reunification of the Nameless Namekian after fusing with Kami. According to Grand Elder Guru, Piccolo, along with Kami and King Piccolo, are part of the Dragon Clan, who were the original creators of the Dragon Balls. A wise and cunning warrior who was originally a ruthless enemy of Goku, Piccolo later becomes a permanent member of the Dragon Team, largely due to forming a mutual respect to Goku and even more from forming a close bond with Goku's first-born son Gohan.",
+      "bio": "Piccolo Jr., usually just called Piccolo also known as Ma Junior, is a Namekiano and also the final child and reincarnation of the Demon King Piccolo, later becoming the reunification of the Nameless Namekiano after fusing with Kami. According to Grand Elder Guru, Piccolo, along with Kami and King Piccolo, are part of the Dragon Clan, who were the original creators of the Dragon Balls. A wise and cunning warrior who was originally a ruthless enemy of Goku, Piccolo later becomes a permanent member of the Dragon Team, largely due to forming a mutual respect to Goku and even more from forming a close bond with Goku's first-born son Gohan.",
       "health": "230,000",
       "attack": "25,000",
       "defense": "25,000",
@@ -192,7 +192,7 @@
       "name": "Krillin",
       "race": "Humano",
       "gender": "Hombre",
-      "bio": "Krillin, is a supporting protagonist in the Dragon Ball manga, and the anime series Dragon Ball, Dragon Ball Z, Dragon Ball GT and Dragon Ball Super. Krillin had a brief rivalry with Goku when they first met and trained under Master Roshi, but they quickly became lifelong best friends. One of the most powerful and talented martial artists on Earth, Krillin is courageous, a faithful ally and good-natured. He is a prominent Z Fighter, despite usually being overpowered by the major enemies. His short stature and baldness (with the exception of when he grows out his hair in the Majin Buu Saga onwards) aid him in his ability to provide comic relief during tense moments. During the latter half of Dragon Ball Z, he largely retires from fighting, opting to settle down with his family instead, becoming the husband of Android 18 and the father of Marron. However, he returns to his lifestyle as a warrior later on in Dragon Ball Super.",
+      "bio": "Krillin, is a supporting protagonist in the Dragon Ball manga, and the anime series Dragon Ball, Dragon Ball Z, Dragon Ball GT and Dragon Ball Super. Krillin had a brief rivalry with Goku when they first met and trained under Master Roshi, but they quickly became lifelong best friends. One of the most powerful and talented martial artists on Earth, Krillin is courageous, a faithful ally and good-natured. He is a prominent Z Fighter, despite usually being overpowered by the major enemies. His short stature and baldness (with the exception of when he grows out his hair in the Majin Buu Saga onwards) aid him in his ability to provide comic relief during tense moments. During the latter half of Dragon Ball Z, he largely retires from fighting, opting to settle down with his family instead, becoming the husband of Androide 18 and the father of Marron. However, he returns to his lifestyle as a warrior later on in Dragon Ball Super.",
       "health": "180,000",
       "attack": "20,000",
       "defense": "20,000",
@@ -240,10 +240,10 @@
     },
     {
       "id": "android 17",
-      "name": "Android 17",
-      "race": "Android",
+      "name": "Androide 17",
+      "race": "Androide",
       "gender": "Hombre",
-      "bio": "Android 17, Lapis when he was an ordinary human, is the twin brother of Android 18 and Dr. Gero's seventeenth android creation, designed to serve Gero's vendetta against Goku. Despite his interests not initially deviating from this expectation, Android 17 takes it upon himself to kill Dr. Gero, who is uncooperative with Android 18's curiosity in activating Android 16 and deemed inferior by 17. Android 17 makes a return a decade later in Dragon Ball Super, working as a national park ranger preserving wildlife from poachers. He is married and has a child, with two more children being adopted. He is asked by Goku to join Team Universe 7 in the Tournament of Power and due to Goku and Frieza's sacrifice to take out Jiren, he is left as the sole fighter remaining by the end of the tournament and the one who makes the wish on the Super Dragon Balls.",
+      "bio": "Androide 17, Lapis when he was an ordinary human, is the twin brother of Androide 18 and Dr. Gero's seventeenth android creation, designed to serve Gero's vendetta against Goku. Despite his interests not initially deviating from this expectation, Androide 17 takes it upon himself to kill Dr. Gero, who is uncooperative with Androide 18's curiosity in activating Androide 16 and deemed inferior by 17. Androide 17 makes a return a decade later in Dragon Ball Super, working as a national park ranger preserving wildlife from poachers. He is married and has a child, with two more children being adopted. He is asked by Goku to join Team Universe 7 in the Tournament of Power and due to Goku and Freezer's sacrifice to take out Jiren, he is left as the sole fighter remaining by the end of the tournament and the one who makes the wish on the Super Dragon Balls.",
       "health": "440,000",
       "attack": "43,000",
       "defense": "42,000",
@@ -257,16 +257,16 @@
     },
     {
       "id": "android 18",
-      "name": "Android 18",
-      "race": "Android",
+      "name": "Androide 18",
+      "race": "Androide",
       "gender": "Female",
-      "bio": "Android 18, Artificial Humano No. 18, Razuri when she was an ordinary human, is the twin sister of Android 17 and Dr. Gero's eighteenth android creation, designed to serve Gero's vendetta against Goku. While her interests do not initially deviate from this expectation, her curiosity to activate Android 16, in spite of Gero's orders not to do so, leads Android 17 to take it upon himself to murder Gero. Eventually, Android 18 becomes a member of the Z Fighters, as well as the wife of Krillin and the mother of their daughter Marron.",
+      "bio": "Androide 18, Artificial Humano No. 18, Razuri when she was an ordinary human, is the twin sister of Androide 17 and Dr. Gero's eighteenth android creation, designed to serve Gero's vendetta against Goku. While her interests do not initially deviate from this expectation, her curiosity to activate Androide 16, in spite of Gero's orders not to do so, leads Androide 17 to take it upon himself to murder Gero. Eventually, Androide 18 becomes a member of the Z Fighters, as well as the wife of Krillin and the mother of their daughter Marron.",
       "health": "420,000",
       "attack": "40,000",
       "defense": "40,000",
       "kiRestoreSpeed": "40,000",
       "abilities": [
-        "Android Barrier",
+        "Androide Barrier",
         "Full Power Energy Ball",
         "Power Blitz"
       ],
@@ -336,7 +336,7 @@
       "abilities": [
         "Tranformación en Super Sayayin",
         "Black Kamehameha",
-        "God Slicer"
+        "Dios Slicer"
       ],
       "img": "assets/images/gokublack.png"
     }

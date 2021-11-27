@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Personaje } from '../interfaces/interface-dbz';
+import { Personaje} from '../interfaces/interface-dbz';
 import dataDbz from '../../data/personajes-dbz.json';
 
 @Component({
@@ -9,6 +9,7 @@ import dataDbz from '../../data/personajes-dbz.json';
 })
 export class MainPageComponent {
 
+  razas = ['Sayayin','Humano/Sayayin','Dios','Humano','Namekiano','Androide'];
   personajes: Personaje[] = dataDbz.personajesDbz;
   nuevoPersonaje: Personaje = {
     name: '',
@@ -16,16 +17,12 @@ export class MainPageComponent {
   }
 
 
-  agregar(){
+  agregar() {
     if (this.nuevoPersonaje.name?.trim().length === 0) {
       return;
     }
     console.log(this.nuevoPersonaje);
   }
-
-
-
-
 
   // Evento no usado
   cambiarNombre(event: any){
