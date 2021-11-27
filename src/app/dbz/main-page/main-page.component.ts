@@ -21,7 +21,9 @@ export class MainPageComponent {
     if (this.nuevoPersonaje.name?.trim().length === 0) {
       return;
     }
-    console.log(this.nuevoPersonaje);
+    this.personajes.push(this.nuevoPersonaje);
+    this.nuevoPersonaje = {};
+    console.log(this.personajes);
   }
 
   // Evento no usado
