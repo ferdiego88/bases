@@ -1,0 +1,47 @@
+<h1>Dragon Ball Z</h1>
+<hr>
+<h3>Personajes</h3>
+<hr>
+<div class="main-container">
+  <div class="list-group">
+    <div *ngFor="let personaje of personajes">
+      <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1"> {{ personaje.name }} </h5>
+          <small>(  {{personaje.race}}  )</small>
+        </div>
+        <p class="mb-1"> {{ personaje.abilities }} </p>
+        <small>Poder -   {{ personaje.attack}} </small>
+      </a>
+    </div>
+  </div>
+  <div>
+    <h3>Agregar</h3>
+    <hr>
+
+    <!-- Extraer valores de la forma Tradicional
+    <input type="text"
+    class="form-control"
+    [value]="nuevoPersonaje.nombre"  // Recupera el valor
+    (input)="cambiarNombre( $event)" // Setear el valor > -->
+
+    <form (ngSubmit)="agregar()">
+      <div class="mb-3">
+        <label class="form-label">Nombre del Personaje</label>
+        <input type="text"
+               class="form-control"
+               name="nombre"
+               [(ngModel)]="nuevoPersonaje.name">
+        <div class="form-text">Aquí rellenaras el nombre del personaje.</div>
+      </div>
+      <div class="mb-3">
+        <label  class="form-label">Poder</label>
+        <input type="text"
+              class="form-control"
+              name="poder"
+              [(ngModel)]="nuevoPersonaje.attack">
+      </div>
+      <button type="submit" class="btn btn-primary">Agregar</button>
+    </form>
+  </div>
+</div>
