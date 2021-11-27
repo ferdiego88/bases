@@ -10,7 +10,7 @@ import dataDbz from '../../data/personajes-dbz.json';
 export class MainPageComponent {
 
   razas = ['Sayayin','Humano/Sayayin','Dios','Humano','Namekiano','Androide'];
-  personajes: Personaje[] = dataDbz.personajesDbz;
+  personajes: Personaje[] = dataDbz.personajesDbz.splice(0,2);
   nuevoPersonaje: Personaje = {
     name: '',
     attack: ''
@@ -21,6 +21,7 @@ export class MainPageComponent {
     if (this.nuevoPersonaje.name?.trim().length === 0) {
       return;
     }
+    this.nuevoPersonaje.img = 'assets/images/bulma.png';
     this.personajes.push(this.nuevoPersonaje);
     this.nuevoPersonaje = {};
     console.log(this.personajes);

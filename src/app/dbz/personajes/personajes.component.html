@@ -1,0 +1,17 @@
+<div class="list-group">
+  <div *ngFor="let personaje of personajes">
+    <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1"> {{ personaje.name }} </h5>
+        <small>(  {{personaje.race}}  )</small>
+      </div>
+      <div class="flex-container">
+        <img [src]="personaje.img" class="img-thumbnail border border-primary" [alt]="personaje.id">
+        <div>
+          <p class="mb-1"> {{ personaje.abilities }} </p>
+          <small>Poder -   {{ personaje.attack}} </small>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
