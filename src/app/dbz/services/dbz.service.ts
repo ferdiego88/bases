@@ -6,7 +6,7 @@ import { Personaje } from '../interfaces/interface-dbz';
   providedIn: 'root'
 })
 export class DbzService {
-  private _dataPersonajes: Personaje[] = dataDbz.personajesDbz.splice(0,4);
+  private _dataPersonajes: Personaje[] = dataDbz.personajesDbz;
   constructor() {
     console.log('Servicio Inicializado');
    }
