@@ -11,14 +11,12 @@ export class DbzService {
     console.log('Servicio Inicializado');
    }
 
-
-
    get personajes ():Personaje[] {
      return [...this._dataPersonajes];
    }
 
-   agregarNuevoPersonaje(argumento: Personaje){
-    this.personajes.push(argumento);
+   agregarPersonaje(personaje: Personaje){
+    this._dataPersonajes.push(personaje);
   }
 
 
