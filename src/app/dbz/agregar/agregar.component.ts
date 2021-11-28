@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Personaje } from '../interfaces/interface-dbz';
 
 @Component({
@@ -10,22 +10,26 @@ export class AgregarComponent {
 
   razas = ['Sayayin','Humano/Sayayin','Dios','Humano','Namekiano','Androide'];
 
-   @Input() personajes:Personaje[] = [];
    @Input() nuevoPersonaje:Personaje = {};
+
+   @Output() onNuevoPersonaje: EventEmitter<Personaje> = new EventEmitter();
 
   agregar() {
     if (this.nuevoPersonaje.name?.trim().length === 0) {
       return;
     }
-    this.personajes.push(this.nuevoPersonaje);
-    this.nuevoPersonaje = {
-        name: '',
-        attack: '',
-        img: 'assets/images/bulma.png',
-        race: 'Humano',
-        abilities:[],
+    this.onNuevoPersonaje.emit(this.nuevoPersonaje);
+    this.limpiarCajas();
+  }
 
-    }
+  limpiarCajas(){
+    this.nuevoPersonaje = {
+      name: '',
+      attack: '',
+      img: 'assets/images/bulma.png',
+      race: 'Humano',
+      abilities:[],
+  }
   }
 
 

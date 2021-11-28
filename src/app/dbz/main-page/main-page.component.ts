@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Personaje} from '../interfaces/interface-dbz';
-import dataDbz from '../../data/personajes-dbz.json';
+import { DbzService } from '../services/dbz.service';
 
 @Component({
   selector: 'app-main-page',
@@ -9,7 +9,6 @@ import dataDbz from '../../data/personajes-dbz.json';
 })
 export class MainPageComponent {
 
-  personajes: Personaje[] = dataDbz.personajesDbz.splice(0,2);
   nuevoPersonaje: Personaje = {
     name: 'Trunks',
     attack: '45000',
@@ -18,9 +17,13 @@ export class MainPageComponent {
     img: 'assets/images/trunks.png'
   }
 
+
+
+
   // Evento no usado
   cambiarNombre(event: any){
     // Ver el valor de la caja de Texto
     //console.log(event.target.value);
   }
+
 }
