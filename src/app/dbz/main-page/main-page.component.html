@@ -1,3 +1,8 @@
+    <!-- Extraer valores de la forma Tradicional
+    <input type="text"
+    class="form-control"
+    [value]="nuevoPersonaje.nombre"  // Recupera el valor
+    (input)="cambiarNombre( $event)" // Setear el valor > -->
 <h1>Dragon Ball Z</h1>
 <hr>
 <h3>Personajes</h3>
@@ -5,51 +10,6 @@
 <div class="main-container">
   <app-personajes [personajes]="personajes"> </app-personajes>
   <div>
-    <h3>Agregar</h3>
-    <hr>
-
-    <!-- Extraer valores de la forma Tradicional
-    <input type="text"
-    class="form-control"
-    [value]="nuevoPersonaje.nombre"  // Recupera el valor
-    (input)="cambiarNombre( $event)" // Setear el valor > -->
-
-    <form (ngSubmit)="agregar()">
-      <div class="mb-3">
-        <label class="form-label">Nombre del Personaje</label>
-        <input type="text"
-               class="form-control"
-               name="nombre"
-               [(ngModel)]="nuevoPersonaje.name">
-        <div class="form-text">Aquí rellenaras el nombre del personaje.</div>
-      </div>
-      <div class="mb-3">
-        <label  class="form-label">Nivel de Poder</label>
-        <input type="text"
-              class="form-control"
-              name="poder"
-              placeholder="0 hasta &#8734;"
-              [(ngModel)]="nuevoPersonaje.attack">
-      </div>
-
-      <div class="mb-3">
-        <label  class="form-label">Habilidades</label>
-        <input type="text"
-              class="form-control"
-              name="poder"
-              [(ngModel)]="nuevoPersonaje.abilities">
-      </div>
-      <div class="mb-3">
-        <label  class="form-label">Seleccione Raza:</label>
-        <select class="form-select"
-                [(ngModel)]="nuevoPersonaje.race"
-                name="race"
-                aria-label="Default select example">
-          <option selected>Seleccione raza:</option>
-          <option *ngFor="let raza of razas">{{raza}}</option>
-        </select>
-      </div>
-      <button type="submit" class="btn btn-primary">Agregar</button>
-    </form>
+  <app-agregar  [nuevoPersonaje]="nuevoPersonaje" [personajes]="personajes"></app-agregar>
   </div>
 </div>
